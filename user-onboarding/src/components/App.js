@@ -116,7 +116,7 @@ export default function App() {
       {
         users.map((user, index) => {
           return (
-            <Users id={index} values={user} />
+            <Users key={index} values={user} />
           )
         })
       }
